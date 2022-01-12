@@ -23,3 +23,7 @@ p.venue {
 .slide figure.cover.width.margin > :first-child {
   width: 90%
 }
+
+cite {
+  font-style: italic;
+}
