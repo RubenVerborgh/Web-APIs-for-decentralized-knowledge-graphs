@@ -21,7 +21,8 @@ p.venue {
 }
 
 .slide figure.cover.width.margin > :first-child {
-  width: 90%
+  margin-top: 2em;
+  width: 88%
 }
 
 cite {

@@ -58,24 +58,93 @@
     </ul>
   </div>
 
-  <div class="toc slide" id="toc-single-source">
+  <div class="slide" id="web-apis">
+    <h2>
+      Web APIs provide access<br>
+      to remote functionality.
+    </h2>
+    <ol>
+      <li>
+        action APIs
+        <ul class="next inline">
+          <li>RPC</li>
+          <li>SOAP</li>
+          <li>XML</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>
+        document APIs
+        <ul class="next inline">
+          <li>REST APIs</li>
+          <li>LDP</li>
+          <li>…</li>
+        </ul>
+      </li>
+      <li>
+        graph APIs
+        <ul class="next inline">
+          <li>GraphQL</li>
+          <li>SPARQL</li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ol>
+    <p class="next">
+      Graph APIs are just a specific kind of document APIs.
+    </p>
+  </div>
+
+  <div class="slide" id="no-query-api">
+    <h2>
+      There's no such thing as a <q>query API</q>.<br>
+      All Web APIs provide <em>some</em> kind of queries.
+    </h2>
     <ul>
-      <li><a href="#toc-web-apis">Web APIs</a></li>
-      <li class="current"><a href="#toc-single-source">Single-source knowledge</a></li>
-      <li><a href="#toc-decentralized-knowledge">Decentralized knowledge</a></li>
+      <li class="next">
+        Solid apps want to <em>query</em>:<br>
+        gather data from multiple documents and pods.
+      </li>
+      <li class="next">
+        We tend to make two wrong assumptions:
+        <ol>
+          <li class="next">Client-side query necessitates server-side query.</li>
+          <li class="next">Servers need dedicated query APIs.</li>
+        </ol>
+      </li>
+      <li class="next">
+        Web APIs for decentralized ecosystems<br>
+        require a very different design mindset.
+      </li>
     </ul>
   </div>
 
   <div class="slide" id="abstract-knowledge">
+    <h2>
+      Solid applications need, in some way,<br>
+      read/write access to a knowledge graph.
+    </h2>
     <figure class="cover width margin">
       <img src="images/abstract-knowledge.svg" alt="[a browser app needs access to knowledge]"/>
     </figure>
   </div>
 
   <div class="slide" id="abstract-transfer">
+    <h2>
+      The graph is too big for <em>any</em> single place,<br>
+      so apps reconstruct the whole via parts.
+    </h2>
     <figure class="cover width margin">
       <img src="images/abstract-transfer.svg" alt="[apps operate parts of the knowledge graph]"/>
     </figure>
+  </div>
+
+  <div class="toc slide" id="toc-single-source">
+    <ul>
+      <li><a href="#toc-web-apis">Web APIs</a></li>
+      <li class="current"><a href="#toc-single-source">Single-source knowledge</a></li>
+      <li><a href="#toc-decentralized-knowledge">Decentralized knowledge</a></li>
+    </ul>
   </div>
 
   <div class="slide" id="single-knowledge-api">
@@ -146,6 +215,13 @@
       <li><a href="#toc-single-source">Single-source knowledge</a></li>
       <li><a href="#toc-decentralized-knowledge">Decentralized knowledge</a></li>
     </ul>
+  </div>
+
+  <div class="slide" id="outro">
+    <h2>
+      Solid has kickstarted the transition<br>
+      from API integration to data integration.
+    </h2>
   </div>
 
   <footer>
