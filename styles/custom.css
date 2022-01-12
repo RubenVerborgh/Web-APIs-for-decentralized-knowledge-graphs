@@ -19,3 +19,7 @@ p.venue {
   font-weight: bold;
   color: var(--accent);
 }
+
+.slide figure.cover.width.margin > :first-child {
+  width: 90%
+}
