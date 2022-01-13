@@ -186,36 +186,60 @@
   </div>
 
   <div class="slide" id="multi-source-knowledge">
+    <h2>
+      Let's revisit the story for cases where<br>
+      knowledge cannot fit in one place.
+    </h2>
     <figure class="cover width margin">
       <img src="images/multi-source-knowledge.svg" alt="[an application needs to access a knowledge graph that is distributed across multiple servers]"/>
     </figure>
   </div>
 
   <div class="slide" id="multi-source-apis">
+    <h2>
+      Each data pod exposes its part<br>
+      as RDF through a Web API.
+    </h2>
     <figure class="cover width margin">
       <img src="images/multi-source-apis.svg" alt="[each server exposes an RDF API]"/>
     </figure>
   </div>
 
   <div class="slide" id="heterogeneous-apis">
+    <h2>
+      Different APIs for RDF<br>
+      have different characteristics.
+    </h2>
     <figure class="cover width margin">
       <img src="images/heterogeneous-apis.svg" alt="[RDF can be exposed through different APIs]"/>
     </figure>
   </div>
 
   <div class="slide" id="heterogeneous-multi-apis">
+    <h2>
+      It quickly becomes unfeasible for apps<br>
+      to deal with all possible API combinations.
+    </h2>
     <figure class="cover width margin">
       <img src="images/heterogeneous-multi-apis.svg" alt="[each server might expose the same knowledge through multiple APIs]"/>
     </figure>
   </div>
 
   <div class="slide" id="graphql-multi-apis">
+    <h2>
+      A GraphQL Web API cannot help us,<br>
+      since there's no server to attach it to.
+    </h2>
     <figure class="cover width margin">
       <img src="images/graphql-multi-apis.svg" alt="[we cannot attach a GraphQL API to any single server when the data resides in multiple servers]"/>
     </figure>
   </div>
 
   <div class="slide" id="graphql-client-side">
+    <h2>
+      The app can still be written with GraphQL:<br>
+      a library translates it into HTTP requests.
+    </h2>
     <figure class="cover width margin">
       <img src="images/graphql-client-side.svg" alt="[a client-side library translates GraphQL queries from the app into HTTP requests for different APIs and servers]"/>
     </figure>
